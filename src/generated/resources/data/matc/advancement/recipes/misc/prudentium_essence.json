@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_inferium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matc:inferium_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matc:prudentium_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_inferium_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matc:prudentium_essence"
+    ]
+  }
+}

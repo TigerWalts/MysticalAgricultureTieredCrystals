@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_imperium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matc:imperium_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matc:supremium_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_imperium_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matc:supremium_essence"
+    ]
+  }
+}

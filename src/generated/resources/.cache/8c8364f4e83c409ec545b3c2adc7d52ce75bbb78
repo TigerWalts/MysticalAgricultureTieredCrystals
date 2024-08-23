@@ -1,0 +1,9 @@
+// 1.21.1	2024-08-23T10:59:35.944916	Tags for minecraft:item mod id vanilla
+33b52a378b7420b1e94d52fe2b2e60de12355f2b data/c/tags/item/hidden_from_recipe_viewers.json
+3635ef87f14196dd52f3eebce177ab4072327708 data/matc/tags/item/infusion_crystals/imperium.json
+3de3785d958e11bbbb8c60fb596f3c69bea85593 data/matc/tags/item/infusion_crystals/inferium.json
+3b09d5d56e73564cd0c0fb8b807b191fee588b0c data/matc/tags/item/infusion_crystals/prudentium.json
+2d82420cd087848f6b3f3d42c309620e149f2483 data/matc/tags/item/infusion_crystals/supremium.json
+f5460b055b31ba4d6564c335503d1f59a66de66f data/matc/tags/item/infusion_crystals/tertium.json
+3991782342d591c760e0b0c0412b8ec60d195940 data/minecraft/tags/item/enchantable/durability.json
+d03e1373eaab98926a49aa29cf3a6219629fbb1b data/mysticalagriculture/tags/item/infusion_crystals.json

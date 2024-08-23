@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prudentium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matc:prudentium_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matc:tertium_essence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_prudentium_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matc:tertium_essence"
+    ]
+  }
+}
